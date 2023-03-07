@@ -1,2 +1,3 @@
 language = "c"
-run = "gcc -o labrab3 /home/runner/lab3-task1-gr12-kharitonchik/src/main.c"
+run = "cd bin && ./main"
+compile = "gcc -c /home/runner/lab3-task1-gr12-kharitonchik/src/main.c -o /home/runner/lab3-task1-gr12-kharitonchik/src/main.o && gcc -c /home/runner/lab3-task1-gr12-kharitonchik/src/server.c -o /home/runner/lab3-task1-gr12-kharitonchik/src/server.o && gcc -o bin/main /home/runner/lab3-task1-gr12-kharitonchik/src/main.o /home/runner/lab3-task1-gr12-kharitonchik/src/server.o"
